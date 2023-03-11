@@ -9,7 +9,7 @@ Run P.A.T. with the command ```'node pat.js yourTextFileHere.txt'```, replacing 
 If your .txt file is not in the P.A.T. directory, be sure to have the full filepath ex: ```'~/Documents/yourTextFile.txt'```<br />
 P.A.T. will log the formatted Patient information to the console
 
-Example Input:
+Example Input .txt file:
 
 ```
 Patient John
@@ -30,7 +30,7 @@ Action Treatment Polly 2023-01-09T13:00:00Z R0F1
 Action Discharge Polly 2023-01-10T12:00:00Z
 ```
 
-Example Output:
+Example Console Output:
 
 ```
 Patient John stayed for 222.0 hours and 13.0 minutes and received 4 treatments
