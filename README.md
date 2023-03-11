@@ -2,10 +2,10 @@
 P.A.T. is a Node program that will track patient activity from any .txt file input and log the formatted data to the console
 
 ## How To Use P.A.T.
-Open a Terminal instance from the PatientActionTracker root directory
-Install required dependencies with the command 'npm install'
-Run P.A.T. with the command 'node pat.js yourTextFileHere.txt', replacing with the name of your .txt file
-If your .txt file is not in the P.A.T. directory, be sure to have the full filepath ex: '~/Documents/yourTextFile.txt'
+Open a Terminal instance from the PatientActionTracker root directory\n
+Install required dependencies with the command 'npm install'\n
+Run P.A.T. with the command 'node pat.js yourTextFileHere.txt', replacing with the name of your .txt file\n
+If your .txt file is not in the P.A.T. directory, be sure to have the full filepath ex: '~/Documents/yourTextFile.txt'\n
 P.A.T. will log the formatted Patient information to the console
 
 Example Input:
