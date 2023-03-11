@@ -13,7 +13,7 @@ const rl = readline.createInterface({
 // process each line of text input
 rl.on('line', (line) => {
   const [type, ...args] = line.split(' ');
-  // add any new patients to POJO 'Patients' as a new object with a treatments array property
+  // add new patients and include a treatments array
   if (type === 'Patient') {
     patients[args[0]] ? null : patients[args[0]] = {treatments: []};
   }
@@ -40,7 +40,7 @@ rl.on('close', () => {
   for (var patient in patients) {
     var currPatient = patients[patient];
     var { intake, discharge, treatments } = currPatient;
-    // if discharged after intake and received at least 1 treatment...
+    // if discharged after intake and received at least 1 treatment
     if (discharge > intake && treatments.length > 0) {
       var stayLength = discharge.getTime() - intake.getTime();
       var hours = stayLength / (1000 * 60 * 60);
