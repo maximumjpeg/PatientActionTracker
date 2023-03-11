@@ -1,5 +1,6 @@
 # Patient Action Tracker
-P.A.T. is a Node program that will track patient activity from any .txt file input and log the formatted data to the console
+P.A.T. is a Node program that will track patient activity from any .txt file input and log the formatted data to the console<br />
+Formatted data will include the each patient's name, their total stay in hours and minutes and total number of treatments
 
 ## How To Use P.A.T.
 Open a Terminal instance from the PatientActionTracker root directory<br />
