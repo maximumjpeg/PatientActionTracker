@@ -5,7 +5,8 @@ Formatted data will include the each patient's name, their total stay in hours a
 ## How To Use P.A.T.
 Open a Terminal instance from the PatientActionTracker root directory<br />
 Install required dependencies with the command ```'npm install'```<br />
-Run P.A.T. with any .txt file in the same directory as index.js using the command ```'node pat.js yourTextFileHere.txt'```<br />
+Run P.A.T. with any .txt file in the same directory as index.js<br />
+Use the command ```'node index.js yourTextFile.txt'```, changing ```yourTextFile``` with the actual name<br />
 P.A.T. will log the formatted Patient information to the console
 
 Example Input .txt file:
