@@ -39,9 +39,9 @@ Use the command ```node index.js yourTextFile.txt```, changing ```yourTextFile``
 P.A.T. will log the formatted Patient information to the console
 
 ## Testing P.A.T.
-Open a Terminal instance from the P.A.T. root directory
-Run the test suite with the command ```npm test```
-Check the console for the test results
+Open a Terminal instance from the P.A.T. root directory<br />
+Run the test suite with the command ```npm test```<br />
+Test results will log to the console
 
 ## Design decisions
 
