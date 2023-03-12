@@ -59,8 +59,6 @@ const trackPatients = () => {
   });
 }
 
-
-
 trackPatients();
 
 module.exports = { trackPatients };
