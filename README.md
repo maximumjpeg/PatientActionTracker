@@ -33,9 +33,9 @@ Patient Polly stayed for 24.0 hours and 0.0 minutes and received 2 treatments
 
 ## How To Use P.A.T.
 Open a Terminal instance from the PatientActionTracker root directory<br />
-Install required dependencies with the command ```'npm install'```<br />
+Install required dependencies with the command ```npm install```<br />
 Run P.A.T. with any .txt file in the P.A.T. root directory<br />
-Use the command ```'node index.js yourTextFile.txt'```, changing ```yourTextFile``` with the actual name<br />
+Use the command ```node index.js yourTextFile.txt```, changing ```yourTextFile``` with the actual name<br />
 P.A.T. will log the formatted Patient information to the console
 
 ## Testing P.A.T.
