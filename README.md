@@ -42,5 +42,7 @@ P.A.T. will log the formatted Patient information to the console
 In a terminal instance from the P.A.T root directory
 ## Journey
 Design decisions
+
+I chose to use JavaScript for it's versatility with Front End and Back End development, ease of use and the sheer volume of JS frameworks, libraries and modules availble. Since the input and output were both text, building a User Interface felt overcomplilcated, so I wrote a Node program that logs the expected patient data right to the console. I wanted the User Experience to be straightforward and simplified, quick and easy. The expected inputs and outputs were already provided so I didn't change anything there. The user does need to have the input .txt file in the same directory as the script file and that could be a painpoint for some. For the handling of patient data, I chose to use a plain JavaScript Object for it's fast lookup times, extremely useful methods and simple structure and use. Being wary of time and space complexity, the program does have to read the input and then iterate through the Patients Object to log each line of appropriate patient data. The readilne module is a great choice here becuase it can read large files without having to load the entirety to memory. I chose Jest for the test suite because of it's versatility, robustness and ease of use.
 ## Notes
 Thoughts and comments
