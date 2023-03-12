@@ -22,14 +22,14 @@ describe('trackPatients', () => {
     }, 100);
   });
 
-  // test('should log all complete patient data, even if the data is not in chronological order', () => {
-  //   const consoleSpy = jest.spyOn(console, 'log');
-  //   process.argv[2] = 'testExample2.txt';
-  //   trackPatients();
-  //   setTimeout(() => {
-  //     expect(consoleSpy).toHaveBeenCalledWith('');
-  //     done();
-  //     consoleSpy.mockReset();
-  //   }, 100);
-  // });
+  test('should log all complete patient data, even if the actions aren\'t in chronological order', (done) => {
+    const consoleSpy = jest.spyOn(console, 'log');
+    process.argv[2] = 'testExample2.txt';
+    trackPatients();
+    setTimeout(() => {
+      expect(consoleSpy).toHaveBeenCalledWith('Patient Polly stayed for 24.0 hours and 0.0 minutes and received 2 treatments');
+      done();
+      consoleSpy.mockReset();
+    }, 100);
+  });
 });
