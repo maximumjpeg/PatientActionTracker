@@ -36,7 +36,7 @@ Open a Terminal instance from the PatientActionTracker root directory<br />
 Install required dependencies with the command ```npm install```<br />
 Run P.A.T. with any .txt file in the P.A.T. root directory<br />
 Use the command ```node index.js yourTextFile.txt```, changing ```yourTextFile``` with the actual name<br />
-P.A.T. will log the formatted Patient information to the console
+P.A.T. will log the formatted Patient information to the console<br />
 You can run P.A.T. with an example .txt file with the command ```npm start```
 
 ## Testing P.A.T.
