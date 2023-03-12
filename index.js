@@ -8,6 +8,8 @@ const trackPatients = () => {
     return
   }
 
+  const incompleteData = true;
+
   const patients = {};
 
   const rl = readline.createInterface({
@@ -49,7 +51,11 @@ const trackPatients = () => {
           `and ${minutes} minutes and received ${treatments.length} treatments`);
       }
     }
+    partialData = false;
   });
+  if (incompleteData) {
+    console.log('ERROR: Please check input file for complete patient data!');
+  }
 }
 
 trackPatients();
