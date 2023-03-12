@@ -2,7 +2,7 @@
 P.A.T. is a Node program that will track patient activity from any .txt file input and log the formatted data to the console<br />
 Formatted data will include the each patient's name, their total stay in hours and minutes and total number of treatments
 
-###Example Input .txt file:
+######Example Input .txt file:
 
 ```
 Patient John
@@ -23,7 +23,7 @@ Action Treatment Polly 2023-01-09T13:00:00Z R0F1
 Action Discharge Polly 2023-01-10T12:00:00Z
 ```
 
-###Example Console Output:
+######Example Console Output:
 
 ```
 Patient John stayed for 222.0 hours and 13.0 minutes and received 4 treatments
