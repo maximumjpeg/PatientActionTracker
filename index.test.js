@@ -16,7 +16,7 @@ describe('trackPatients', () => {
     process.argv[2] = 'testExample1.txt';
     trackPatients();
     setTimeout(() => {
-      expect(consoleSpy).toHaveBeenCalledWith('Patient John stayed for 222.0 hours and 13.0 minutes and received 4 treatments');
+      expect(consoleSpy).toHaveBeenCalledWith('Patient JarJar stayed for 222.0 hours and 13.0 minutes and received 4 treatments');
       done();
       consoleSpy.mockReset();
     }, 100);
@@ -27,7 +27,7 @@ describe('trackPatients', () => {
     process.argv[2] = 'testExample2.txt';
     trackPatients();
     setTimeout(() => {
-      expect(consoleSpy).toHaveBeenCalledWith('Patient Polly stayed for 24.0 hours and 0.0 minutes and received 2 treatments');
+      expect(consoleSpy).toHaveBeenCalledWith('Patient Padme stayed for 24.0 hours and 0.0 minutes and received 2 treatments');
       done();
       consoleSpy.mockReset();
     }, 100);
