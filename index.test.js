@@ -3,6 +3,7 @@ const readline = require('readline');
 const { trackPatients } = require('./index.js');
 
 describe('trackPatients', () => {
+
   test('should log an error message if no input file is detected', () => {
     const consoleSpy = jest.spyOn(console, 'log');
     process.argv[2] = undefined;

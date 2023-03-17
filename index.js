@@ -8,7 +8,7 @@ const trackPatients = () => {
     return
   }
 
-  const incompleteData = true;
+  var incompleteData = false;
 
   const patients = {};
 
@@ -51,9 +51,9 @@ const trackPatients = () => {
           `and ${minutes} minutes and received ${treatments.length} treatments`);
       }
     }
-    partialData = false;
+    incompleteData = true;
   });
-  if (incompleteData) {
+  if (!!incompleteData) {
     console.log('ERROR: Please check input file for complete patient data!');
   }
 }
