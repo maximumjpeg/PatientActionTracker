@@ -1,6 +1,6 @@
 # Patient Action Tracker
 P.A.T. is a Node command line tool that will track patient activity from any .txt file input and log the formatted data to the console<br />
-Formatted data will include the each patient's name, their total stay in hours and minutes and total number of treatments
+Formatted data will include each patient's name, their total stay in hours and minutes and total number of treatments
 
 #### Example Input .txt file:
 
